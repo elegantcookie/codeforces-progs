@@ -26,7 +26,7 @@ int main() {
 		sort(func_array[row], func_array[row] + 100);
 	}
 
-	for (int row = 0; row < 100; row++)						// fixing a not initialized cells
+	for (int row = 0; row < 100; row++)						// fixing not initialized cells
 	{
 		for (int column = 0; column < 100; column++)
 		{
